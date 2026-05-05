@@ -13,28 +13,28 @@
 
 <div align="center">
 
-```zsh
+```diff
 ╭─ charan@ceg:~  ──────────────────────────────────────────╮
-│                                                           │
-│  $ whoami                                                 │
-│                                                           │
+│                                                          │
+│  $ whoami                                                │
+│                                                          │
 │  ► Charan Jagan  //  ECE @ CEG · Anna University         │
 │  ► Data Analyst · Embedded Systems · VLSI · IoT          │
-│  ► Deputy Dir. of Photography · Guindy Times 📷          │
-│  ► Marketing & Media · CEG Tech Forum 🎯                 │
+│  ► Vice President · Guindy Times                         │
+│  ► Marketing & Media · CEG Tech Forum                    │
 │  ► Vibecoding my way through life, one bug at a time     │
 │  ► Currently obsessed with: Power BI + DAX sorcery       │
-│                                                           │
-│  $ cat interests.txt                                      │
-│                                                           │
+│                                                          │
+│  $ cat interests.txt                                     │
+│                                                          │
 │  ► Dashboards that slap  ·  circuits that don't fry      │
 │  ► FPGA black magic  ·  IoT bots & autonomous things     │
 │  ► Street photography  ·  business ideas at 2am          │
-│  ► Vibe-coded side projects nobody asked for 🚀          │
-│                                                           │
-│  "First, vibe. Then, debug." — Charan, probably           │
-│                                                           │
-╰───────────────────────────────────────────────────────────╯
+│  ► Vibe-coded side projects nobody asked for             │
+│                                                          │
+│  "First, vibe. Then, debug." — Charan, probably          │
+│                                                          │
+╰──────────────────────────────────────────────────────────╯
 ```
 
 </div>
@@ -65,11 +65,11 @@
 
 ```
 📊  Workforce Risk & Engagement Dashboard  →  Power BI + DAX, IBM HR Analytics
-🤖  Autonomous Car Bot (ADAS)             →  ROS + Python + SLAM
-💡  P10 LED + 8051 uC                     →  Pure Assembly, because I enjoy pain
-📡  IoT Projects                          →  Embedded C + sensors + chaos
-🗃️  Tkinter DB Manager                   →  Python + MySQL GUI app
-🚆  Railways & Interconnectivity          →  Business concept, not a train simulator
+🤖  Autonomous Car Bot (ADAS)              →  ROS + Python + SLAM
+💡  P10 LED + 8051 uC                      →  Pure Assembly, because I enjoy pain
+📡  IoT Projects                           →  Embedded C + sensors + chaos
+🗃️  Tkinter DB Manager                     →  Python + MySQL GUI app
+🚆  Railways & Interconnectivity           →  Business concept, not a train simulator
 ```
 
 ---
@@ -81,25 +81,11 @@
 
 ---
 
-## 📈 GitHub Stats
-
-<div align="center">
-
-![Charan's GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true)
-
-</div>
-
----
-
 <div align="center">
 
 ```
  currently running on: caffeine + curiosity + vibes
  uptime: 20 years  |  kernel: ECE @ CEG  |  status: always building
 ```
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/YOUR_INSTAGRAM)
 
 </div>
