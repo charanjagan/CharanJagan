@@ -14,11 +14,12 @@
 <div align="center">
 
 ```diff
-╭─ mr.cj:~ ────────────────────────────────────────────────╮
+╭─ mr.zeus:~ ──────────────────────────────────────────────╮
 │                                                          │
 │  $ whoami                                                │
 │                                                          │
 │  ► Charan Jagan  //  ECE @ CEG · Anna University         │
+│  ► Incoming MS in Purdue NW                              │
 │  ► Data Analyst · Embedded Systems · VLSI · IoT          │
 │  ► Vice President · Guindy Times                         │
 │  ► Marketing & Media · CEG Tech Forum                    │
@@ -68,8 +69,7 @@
 🤖  Autonomous Car Bot (ADAS)              →  ROS + Python + SLAM
 💡  P10 LED + 8051 uC                      →  Pure Assembly, because I enjoy pain
 📡  IoT Projects                           →  Embedded C + sensors + chaos
-🗃️  Tkinter DB Manager                     →  Python + MySQL GUI app
-🚆  Railways & Interconnectivity           →  Business concept, not a train simulator
+
 ```
 
 ---
