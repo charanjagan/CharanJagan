@@ -1,0 +1,213 @@
+<svg width="800" height="880" viewBox="0 0 800 880" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050011"/>
+      <stop offset="50%" stop-color="#0d0028"/>
+      <stop offset="100%" stop-color="#080020"/>
+    </linearGradient>
+    <radialGradient id="orb1" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#7B2FBE" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#7B2FBE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb2" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#0096C7" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0096C7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb3" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#F72585" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#F72585" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow-lg">
+      <feGaussianBlur stdDeviation="45"/>
+    </filter>
+    <filter id="glow-sm">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <linearGradient id="glass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.10)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0.03)"/>
+    </linearGradient>
+    <linearGradient id="shimmer" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.13)"/>
+      <stop offset="35%" stop-color="rgba(255,255,255,0.04)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A855F7"/>
+      <stop offset="50%" stop-color="#0096C7"/>
+      <stop offset="100%" stop-color="#F72585"/>
+    </linearGradient>
+    <linearGradient id="accent-v" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#F72585"/>
+    </linearGradient>
+  </defs>
+
+  <!-- BG -->
+  <rect width="800" height="880" fill="url(#bg)"/>
+
+  <!-- Ambient orbs -->
+  <ellipse cx="130" cy="180" rx="210" ry="200" fill="url(#orb1)" filter="url(#glow-lg)" opacity="0.9"/>
+  <ellipse cx="680" cy="320" rx="190" ry="190" fill="url(#orb2)" filter="url(#glow-lg)" opacity="0.8"/>
+  <ellipse cx="380" cy="680" rx="230" ry="180" fill="url(#orb3)" filter="url(#glow-lg)" opacity="0.6"/>
+  <ellipse cx="760" cy="80" rx="120" ry="120" fill="url(#orb2)" filter="url(#glow-lg)" opacity="0.5"/>
+  <ellipse cx="50" cy="750" rx="140" ry="130" fill="url(#orb1)" filter="url(#glow-lg)" opacity="0.4"/>
+
+  <!-- ── HEADER CARD ── -->
+  <rect x="30" y="18" width="740" height="210" rx="20" fill="url(#glass)"/>
+  <rect x="30" y="18" width="740" height="210" rx="20" fill="url(#shimmer)"/>
+  <rect x="30" y="18" width="740" height="210" rx="20" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="1"/>
+  <!-- top border glow -->
+  <rect x="30" y="18" width="740" height="2" rx="1" fill="url(#accent)" opacity="0.6"/>
+
+  <text x="400" y="78" font-family="'Courier New', monospace" font-size="38" font-weight="700" fill="url(#accent)" text-anchor="middle" letter-spacing="4">CHARAN JAGAN</text>
+  <text x="400" y="102" font-family="'Courier New', monospace" font-size="13" fill="rgba(255,255,255,0.42)" text-anchor="middle" letter-spacing="2">// mr.zeus</text>
+  <line x1="180" y1="114" x2="620" y2="114" stroke="url(#accent)" stroke-width="0.8" opacity="0.45"/>
+  <text x="400" y="136" font-family="'Courier New', monospace" font-size="12.5" fill="rgba(255,255,255,0.82)" text-anchor="middle">ECE @ College of Engineering, Guindy · Anna University</text>
+  <text x="400" y="156" font-family="'Courier New', monospace" font-size="12.5" fill="rgba(255,255,255,0.82)" text-anchor="middle">Incoming MS  →  Purdue University Northwest</text>
+
+  <!-- Pill tags -->
+  <rect x="108" y="172" width="148" height="24" rx="12" fill="rgba(168,85,247,0.18)" stroke="rgba(168,85,247,0.45)" stroke-width="1"/>
+  <text x="182" y="188" font-family="'Courier New', monospace" font-size="11" fill="#C084FC" text-anchor="middle">Data Analyst</text>
+
+  <rect x="270" y="172" width="170" height="24" rx="12" fill="rgba(0,150,199,0.18)" stroke="rgba(0,150,199,0.45)" stroke-width="1"/>
+  <text x="355" y="188" font-family="'Courier New', monospace" font-size="11" fill="#38BDF8" text-anchor="middle">Embedded · VLSI · IoT</text>
+
+  <rect x="455" y="172" width="148" height="24" rx="12" fill="rgba(247,37,133,0.18)" stroke="rgba(247,37,133,0.45)" stroke-width="1"/>
+  <text x="529" y="188" font-family="'Courier New', monospace" font-size="11" fill="#FB7185" text-anchor="middle">Vibecoder</text>
+
+  <!-- Decorative corner dots -->
+  <circle cx="52" cy="35" r="4" fill="#A855F7" opacity="0.5"/>
+  <circle cx="66" cy="35" r="4" fill="#0096C7" opacity="0.5"/>
+  <circle cx="80" cy="35" r="4" fill="#F72585" opacity="0.5"/>
+  <circle cx="748" cy="35" r="4" fill="#F72585" opacity="0.5"/>
+  <circle cx="734" cy="35" r="4" fill="#0096C7" opacity="0.5"/>
+  <circle cx="720" cy="35" r="4" fill="#A855F7" opacity="0.5"/>
+
+  <!-- ── LEFT CARD: About ── -->
+  <rect x="30" y="248" width="355" height="288" rx="16" fill="url(#glass)"/>
+  <rect x="30" y="248" width="355" height="288" rx="16" fill="url(#shimmer)"/>
+  <rect x="30" y="248" width="355" height="288" rx="16" fill="none" stroke="rgba(255,255,255,0.13)" stroke-width="1"/>
+  <rect x="30" y="248" width="2" height="288" rx="1" fill="url(#accent-v)" opacity="0.6"/>
+
+  <text x="50" y="274" font-family="'Courier New', monospace" font-size="11" fill="#C084FC" letter-spacing="2">◈  ABOUT.EXE</text>
+  <line x1="50" y1="282" x2="368" y2="282" stroke="rgba(168,85,247,0.25)" stroke-width="1"/>
+
+  <text x="50" y="306" font-family="'Courier New', monospace" font-size="11.5" fill="rgba(255,255,255,0.38)">alias  </text>
+  <text x="115" y="306" font-family="'Courier New', monospace" font-size="11.5" fill="rgba(255,255,255,0.88)">→  mr.zeus</text>
+  <text x="50" y="326" font-family="'Courier New', monospace" font-size="11.5" fill="rgba(255,255,255,0.38)">uni    </text>
+  <text x="115" y="326" font-family="'Courier New', monospace" font-size="11.5" fill="rgba(255,255,255,0.88)">→  CEG, Anna University</text>
+  <text x="50" y="346" font-family="'Courier New', monospace" font-size="11.5" fill="rgba(255,255,255,0.38)">next   </text>
+  <text x="115" y="346" font-family="'Courier New', monospace" font-size="11.5" fill="rgba(255,255,255,0.88)">→  MS @ Purdue NW</text>
+  <text x="50" y="366" font-family="'Courier New', monospace" font-size="11.5" fill="rgba(255,255,255,0.38)">domain </text>
+  <text x="115" y="366" font-family="'Courier New', monospace" font-size="11.5" fill="rgba(255,255,255,0.88)">→  ECE</text>
+  <text x="50" y="386" font-family="'Courier New', monospace" font-size="11.5" fill="rgba(255,255,255,0.38)">mood   </text>
+  <text x="115" y="386" font-family="'Courier New', monospace" font-size="11.5" fill="rgba(255,255,255,0.88)">→  always building</text>
+
+  <line x1="50" y1="400" x2="368" y2="400" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+
+  <text x="50" y="420" font-family="'Courier New', monospace" font-size="11.5" fill="#FB7185">▸ </text>
+  <text x="65" y="420" font-family="'Courier New', monospace" font-size="11.5" fill="rgba(255,255,255,0.78)">VP — Guindy Times</text>
+  <text x="50" y="440" font-family="'Courier New', monospace" font-size="11.5" fill="#FB7185">▸ </text>
+  <text x="65" y="440" font-family="'Courier New', monospace" font-size="11.5" fill="rgba(255,255,255,0.78)">Marketing &amp; Media — CTF</text>
+  <text x="50" y="460" font-family="'Courier New', monospace" font-size="11.5" fill="#FB7185">▸ </text>
+  <text x="65" y="460" font-family="'Courier New', monospace" font-size="11.5" fill="rgba(255,255,255,0.78)">Street &amp; Event Photographer</text>
+
+  <text x="50" y="498" font-family="'Courier New', monospace" font-size="11" fill="rgba(255,255,255,0.28)" font-style="italic">"First, vibe. Then, debug."</text>
+
+  <!-- ── RIGHT CARD: Projects ── -->
+  <rect x="415" y="248" width="355" height="288" rx="16" fill="url(#glass)"/>
+  <rect x="415" y="248" width="355" height="288" rx="16" fill="url(#shimmer)"/>
+  <rect x="415" y="248" width="355" height="288" rx="16" fill="none" stroke="rgba(255,255,255,0.13)" stroke-width="1"/>
+  <rect x="768" y="248" width="2" height="288" rx="1" fill="url(#accent-v)" opacity="0.6"/>
+
+  <text x="435" y="274" font-family="'Courier New', monospace" font-size="11" fill="#38BDF8" letter-spacing="2">◈  BUILDING.NOW</text>
+  <line x1="435" y1="282" x2="752" y2="282" stroke="rgba(0,150,199,0.25)" stroke-width="1"/>
+
+  <!-- Project rows -->
+  <rect x="435" y="292" width="315" height="38" rx="8" fill="rgba(168,85,247,0.1)" stroke="rgba(168,85,247,0.22)" stroke-width="1"/>
+  <text x="450" y="312" font-family="'Courier New', monospace" font-size="11.5" fill="rgba(255,255,255,0.88)">📊 Workforce Risk Dashboard</text>
+  <text x="450" y="325" font-family="'Courier New', monospace" font-size="10" fill="#C084FC">Power BI · DAX</text>
+
+  <rect x="435" y="338" width="315" height="38" rx="8" fill="rgba(0,150,199,0.1)" stroke="rgba(0,150,199,0.22)" stroke-width="1"/>
+  <text x="450" y="358" font-family="'Courier New', monospace" font-size="11.5" fill="rgba(255,255,255,0.88)">🤖 Autonomous Car Bot (ADAS)</text>
+  <text x="450" y="371" font-family="'Courier New', monospace" font-size="10" fill="#38BDF8">ROS · Python · SLAM</text>
+
+  <rect x="435" y="384" width="315" height="38" rx="8" fill="rgba(247,37,133,0.1)" stroke="rgba(247,37,133,0.22)" stroke-width="1"/>
+  <text x="450" y="404" font-family="'Courier New', monospace" font-size="11.5" fill="rgba(255,255,255,0.88)">💡 P10 LED + 8051 uC</text>
+  <text x="450" y="417" font-family="'Courier New', monospace" font-size="10" fill="#FB7185">Assembly — by choice</text>
+
+  <rect x="435" y="430" width="315" height="38" rx="8" fill="rgba(168,85,247,0.1)" stroke="rgba(168,85,247,0.22)" stroke-width="1"/>
+  <text x="450" y="450" font-family="'Courier New', monospace" font-size="11.5" fill="rgba(255,255,255,0.88)">🔲 VLSI on Basys 3</text>
+  <text x="450" y="463" font-family="'Courier New', monospace" font-size="10" fill="#C084FC">Vivado · Verilog</text>
+
+  <rect x="435" y="476" width="315" height="38" rx="8" fill="rgba(0,150,199,0.1)" stroke="rgba(0,150,199,0.22)" stroke-width="1"/>
+  <text x="450" y="496" font-family="'Courier New', monospace" font-size="11.5" fill="rgba(255,255,255,0.88)">📡 IoT Sensor Systems</text>
+  <text x="450" y="509" font-family="'Courier New', monospace" font-size="10" fill="#38BDF8">Embedded C · sensors</text>
+
+  <!-- ── STACK CARD ── -->
+  <rect x="30" y="556" width="740" height="210" rx="16" fill="url(#glass)"/>
+  <rect x="30" y="556" width="740" height="210" rx="16" fill="url(#shimmer)"/>
+  <rect x="30" y="556" width="740" height="210" rx="16" fill="none" stroke="rgba(255,255,255,0.13)" stroke-width="1"/>
+  <rect x="30" y="556" width="740" height="2" rx="1" fill="url(#accent)" opacity="0.5"/>
+
+  <text x="50" y="580" font-family="'Courier New', monospace" font-size="11" fill="#FB7185" letter-spacing="2">◈  STACK.JSON</text>
+  <line x1="50" y1="588" x2="750" y2="588" stroke="rgba(247,37,133,0.22)" stroke-width="1"/>
+
+  <text x="50" y="608" font-family="'Courier New', monospace" font-size="10" fill="rgba(255,255,255,0.3)">languages</text>
+  <rect x="50" y="614" width="78" height="22" rx="11" fill="rgba(168,85,247,0.15)" stroke="rgba(168,85,247,0.38)" stroke-width="1"/>
+  <text x="89" y="629" font-family="'Courier New', monospace" font-size="11" fill="#C084FC" text-anchor="middle">Python</text>
+  <rect x="138" y="614" width="46" height="22" rx="11" fill="rgba(0,150,199,0.15)" stroke="rgba(0,150,199,0.38)" stroke-width="1"/>
+  <text x="161" y="629" font-family="'Courier New', monospace" font-size="11" fill="#38BDF8" text-anchor="middle">C</text>
+  <rect x="194" y="614" width="86" height="22" rx="11" fill="rgba(247,37,133,0.15)" stroke="rgba(247,37,133,0.38)" stroke-width="1"/>
+  <text x="237" y="629" font-family="'Courier New', monospace" font-size="11" fill="#FB7185" text-anchor="middle">Assembly</text>
+  <rect x="290" y="614" width="78" height="22" rx="11" fill="rgba(168,85,247,0.15)" stroke="rgba(168,85,247,0.38)" stroke-width="1"/>
+  <text x="329" y="629" font-family="'Courier New', monospace" font-size="11" fill="#C084FC" text-anchor="middle">MATLAB</text>
+  <rect x="378" y="614" width="98" height="22" rx="11" fill="rgba(0,150,199,0.15)" stroke="rgba(0,150,199,0.38)" stroke-width="1"/>
+  <text x="427" y="629" font-family="'Courier New', monospace" font-size="11" fill="#38BDF8" text-anchor="middle">SQL Server</text>
+  <rect x="486" y="614" width="68" height="22" rx="11" fill="rgba(247,37,133,0.15)" stroke="rgba(247,37,133,0.38)" stroke-width="1"/>
+  <text x="520" y="629" font-family="'Courier New', monospace" font-size="11" fill="#FB7185" text-anchor="middle">MySQL</text>
+
+  <text x="50" y="655" font-family="'Courier New', monospace" font-size="10" fill="rgba(255,255,255,0.3)">tools &amp; platforms</text>
+  <rect x="50" y="661" width="82" height="22" rx="11" fill="rgba(247,37,133,0.15)" stroke="rgba(247,37,133,0.38)" stroke-width="1"/>
+  <text x="91" y="676" font-family="'Courier New', monospace" font-size="11" fill="#FB7185" text-anchor="middle">Power BI</text>
+  <rect x="142" y="661" width="52" height="22" rx="11" fill="rgba(168,85,247,0.15)" stroke="rgba(168,85,247,0.38)" stroke-width="1"/>
+  <text x="168" y="676" font-family="'Courier New', monospace" font-size="11" fill="#C084FC" text-anchor="middle">DAX</text>
+  <rect x="204" y="661" width="78" height="22" rx="11" fill="rgba(0,150,199,0.15)" stroke="rgba(0,150,199,0.38)" stroke-width="1"/>
+  <text x="243" y="676" font-family="'Courier New', monospace" font-size="11" fill="#38BDF8" text-anchor="middle">Arduino</text>
+  <rect x="292" y="661" width="52" height="22" rx="11" fill="rgba(247,37,133,0.15)" stroke="rgba(247,37,133,0.38)" stroke-width="1"/>
+  <text x="318" y="676" font-family="'Courier New', monospace" font-size="11" fill="#FB7185" text-anchor="middle">ROS</text>
+  <rect x="354" y="661" width="72" height="22" rx="11" fill="rgba(168,85,247,0.15)" stroke="rgba(168,85,247,0.38)" stroke-width="1"/>
+  <text x="390" y="676" font-family="'Courier New', monospace" font-size="11" fill="#C084FC" text-anchor="middle">Vivado</text>
+  <rect x="436" y="661" width="72" height="22" rx="11" fill="rgba(0,150,199,0.15)" stroke="rgba(0,150,199,0.38)" stroke-width="1"/>
+  <text x="472" y="676" font-family="'Courier New', monospace" font-size="11" fill="#38BDF8" text-anchor="middle">Tkinter</text>
+
+  <text x="50" y="704" font-family="'Courier New', monospace" font-size="10" fill="rgba(255,255,255,0.3)">hardware</text>
+  <rect x="50" y="710" width="75" height="22" rx="11" fill="rgba(0,150,199,0.1)" stroke="rgba(0,150,199,0.3)" stroke-width="1"/>
+  <text x="87" y="725" font-family="'Courier New', monospace" font-size="11" fill="#38BDF8" text-anchor="middle">8051 uC</text>
+  <rect x="135" y="710" width="62" height="22" rx="11" fill="rgba(168,85,247,0.1)" stroke="rgba(168,85,247,0.3)" stroke-width="1"/>
+  <text x="166" y="725" font-family="'Courier New', monospace" font-size="11" fill="#C084FC" text-anchor="middle">Basys 3</text>
+  <rect x="207" y="710" width="76" height="22" rx="11" fill="rgba(247,37,133,0.1)" stroke="rgba(247,37,133,0.3)" stroke-width="1"/>
+  <text x="245" y="725" font-family="'Courier New', monospace" font-size="11" fill="#FB7185" text-anchor="middle">P10 LED</text>
+  <rect x="293" y="710" width="106" height="22" rx="11" fill="rgba(0,150,199,0.1)" stroke="rgba(0,150,199,0.3)" stroke-width="1"/>
+  <text x="346" y="725" font-family="'Courier New', monospace" font-size="11" fill="#38BDF8" text-anchor="middle">IoT Sensors</text>
+  <rect x="409" y="710" width="58" height="22" rx="11" fill="rgba(168,85,247,0.1)" stroke="rgba(168,85,247,0.3)" stroke-width="1"/>
+  <text x="438" y="725" font-family="'Courier New', monospace" font-size="11" fill="#C084FC" text-anchor="middle">FPGA</text>
+
+  <!-- ── FOOTER CARD ── -->
+  <rect x="30" y="786" width="740" height="82" rx="16" fill="url(#glass)"/>
+  <rect x="30" y="786" width="740" height="82" rx="16" fill="url(#shimmer)"/>
+  <rect x="30" y="786" width="740" height="82" rx="16" fill="none" stroke="rgba(255,255,255,0.11)" stroke-width="1"/>
+  <rect x="30" y="866" width="740" height="2" rx="1" fill="url(#accent)" opacity="0.5"/>
+
+  <text x="400" y="814" font-family="'Courier New', monospace" font-size="12.5" fill="rgba(255,255,255,0.65)" text-anchor="middle">currently running on: caffeine + curiosity + vibes</text>
+  <text x="400" y="836" font-family="'Courier New', monospace" font-size="11.5" fill="rgba(255,255,255,0.32)" text-anchor="middle">uptime: 20 yrs  ·  kernel: ECE @ CEG  ·  status: always on</text>
+
+  <circle cx="56" cy="852" r="4" fill="#A855F7" opacity="0.55"/>
+  <circle cx="70" cy="852" r="4" fill="#0096C7" opacity="0.55"/>
+  <circle cx="84" cy="852" r="4" fill="#F72585" opacity="0.55"/>
+  <circle cx="744" cy="852" r="4" fill="#F72585" opacity="0.55"/>
+  <circle cx="730" cy="852" r="4" fill="#0096C7" opacity="0.55"/>
+  <circle cx="716" cy="852" r="4" fill="#A855F7" opacity="0.55"/>
+
+</svg>
