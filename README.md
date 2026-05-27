@@ -1,108 +1,73 @@
 <div align="center">
 
-```
-▓█████▄  ▄▄▄     ▄▄▄█████▓ ▄▄▄            ██████  ▄████▄  ▄▄▄       ██▓
-▒██▀ ██▌▒████▄   ▓  ██▒ ▓▒▒████▄        ▒██    ▒ ▒██▀ ▀█ ▒████▄    ▓██▒
-░██   █▌▒██  ▀█▄ ▒ ▓██░ ▒░▒██  ▀█▄      ░ ▓██▄   ▒▓█    ▄▒██  ▀█▄  ▒██░
-░▓█▄   ▌░██▄▄▄▄██░ ▓██▓ ░ ░██▄▄▄▄██       ▒   ██▒▒▓▓▄ ▄██░██▄▄▄▄██ ▒██░
-░▒████▓  ▓█   ▓██▒ ▒██▒ ░  ▓█   ▓██▒    ▒██████▒▒▒ ▓███▀ ░▓█   ▓██▒░██████▒
- ▒▒▓  ▒  ▒▒   ▓▒█░ ▒ ░░    ▒▒   ▓▒█░    ▒ ▒▓▒ ▒ ░░ ░▒ ▒  ░▒▒   ▓▒█░░ ▒░▓  ░
-```
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=E85D04&center=true&vCenter=true&width=600&lines=hey%2C+i'm+charan+jagan.;ECE+%40+CEG+%E2%80%94+Anna+University.;incoming+MS+%40+Purdue+NW.;i+build+things+that+(mostly)+work." alt="Typing SVG" />
 
-</div>
+<br/>
 
-<div align="center">
-
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│                                                                     │
-│    CHARAN JAGAN  /  mr.zeus                                         │
-│    ─────────────────────────────────────────────────────────────    │
-│    ECE @ College of Engineering, Guindy  ·  Anna University         │
-│    Incoming MS  →  Purdue University Northwest                      │
-│                                                                     │
-│    ↳  Data Analyst  ·  Embedded Systems  ·  VLSI  ·  IoT           │
-│    ↳  Vice President  ·  Guindy Times                               │
-│    ↳  Marketing & Media  ·  CEG Tech Forum                          │
-│    ↳  Vibecoding my way through life, one bug at a time             │
-│                                                                     │
-│    "First, vibe. Then, debug."                                      │
-│                                                                     │
-└─────────────────────────────────────────────────────────────────────┘
-```
+[![](https://img.shields.io/badge/-Power%20BI%20Nerd-E85D04?style=for-the-badge&logoColor=white)](.)
+[![](https://img.shields.io/badge/-Embedded%20Systems-3A0CA3?style=for-the-badge&logoColor=white)](.)
+[![](https://img.shields.io/badge/-Vibecoder-F72585?style=for-the-badge&logoColor=white)](.)
 
 </div>
 
 ---
 
-<div align="center">
+<table>
+<tr>
+<td width="55%" valign="top">
 
-### `$ cat /proc/status`
+### 🧑‍💻 &nbsp; about me
 
-![Caffeine](https://img.shields.io/badge/Fuel-Caffeine%20%2B%20Curiosity-FF6B35?style=flat-square&labelColor=1a1a2e)
-![Uptime](https://img.shields.io/badge/Uptime-20%20years-FFD166?style=flat-square&labelColor=1a1a2e)
-![Kernel](https://img.shields.io/badge/Kernel-ECE%20%40%20CEG-EF233C?style=flat-square&labelColor=1a1a2e)
-![Status](https://img.shields.io/badge/Status-Always%20Building-06D6A0?style=flat-square&labelColor=1a1a2e)
-
-</div>
-
----
-
-## ⚡ Stack
-
-<div align="center">
-
-**Languages**
-
-![Python](https://img.shields.io/badge/Python-1a1a2e?style=flat-square&logo=python&logoColor=FFD166)
-![C](https://img.shields.io/badge/C-1a1a2e?style=flat-square&logo=c&logoColor=FF6B35)
-![Assembly](https://img.shields.io/badge/Assembly-1a1a2e?style=flat-square&logo=assemblyscript&logoColor=EF233C)
-![MATLAB](https://img.shields.io/badge/MATLAB-1a1a2e?style=flat-square&logo=mathworks&logoColor=06D6A0)
-![MySQL](https://img.shields.io/badge/MySQL-1a1a2e?style=flat-square&logo=mysql&logoColor=FFD166)
-![SQL Server](https://img.shields.io/badge/SQL%20Server-1a1a2e?style=flat-square&logo=microsoftsqlserver&logoColor=FF6B35)
-
-**Tools & Platforms**
-
-![Power BI](https://img.shields.io/badge/Power%20BI-1a1a2e?style=flat-square&logo=powerbi&logoColor=FFD166)
-![DAX](https://img.shields.io/badge/DAX-1a1a2e?style=flat-square&logo=microsoftazure&logoColor=06D6A0)
-![Arduino](https://img.shields.io/badge/Arduino-1a1a2e?style=flat-square&logo=arduino&logoColor=06D6A0)
-![ROS](https://img.shields.io/badge/ROS-1a1a2e?style=flat-square&logo=ros&logoColor=EF233C)
-![Vivado](https://img.shields.io/badge/Vivado-1a1a2e?style=flat-square&logo=xilinx&logoColor=FF6B35)
-![Tkinter](https://img.shields.io/badge/Tkinter-1a1a2e?style=flat-square&logo=python&logoColor=FFD166)
-
-</div>
-
----
-
-## 🔨 Currently Building
-
-```javascript
-const projects = {
-  "📊 Workforce Risk Dashboard"  : "Power BI  +  DAX  +  IBM HR Analytics",
-  "🤖 Autonomous Car Bot (ADAS)" : "ROS  +  Python  +  SLAM navigation",
-  "💡 P10 LED  +  8051 uC"       : "Pure Assembly  (yes, by choice)",
-  "📡 IoT Sensor Systems"        : "Embedded C  +  sensors  +  controlled chaos",
-  "🔲 VLSI on Basys 3"           : "Vivado  +  Verilog  +  flip-flop sorcery",
-};
+```
+name    →  Charan Jagan
+alias   →  mr.zeus
+uni     →  CEG, Anna University
+next    →  MS @ Purdue University NW
+domain  →  ECE — Data · Embedded · VLSI
+mood    →  always building something
 ```
 
+📌 &nbsp; **VP** — Guindy Times  
+📌 &nbsp; **Marketing & Media** — CEG Tech Forum  
+📌 &nbsp; **Street & Event Photographer**  
+
+> *"First, vibe. Then, debug."*
+
+</td>
+<td width="45%" valign="top">
+
+### 🔥 &nbsp; live projects
+
+| project | stack |
+|---|---|
+| Workforce Risk Dashboard | Power BI · DAX |
+| Autonomous Car Bot | ROS · Python · SLAM |
+| P10 LED + 8051 uC | Assembly (by choice) |
+| VLSI on Basys 3 | Vivado · Verilog |
+| IoT Sensor Systems | Embedded C |
+
+</td>
+</tr>
+</table>
+
 ---
 
-## 📸 Other Dimension
-
-> **Deputy Director of Photography — Guindy Times**
-> Shooting streets, events & college chaos.
-> If it's interesting, it's in frame. If it's blurry, it was artistic intent.
-
----
-
-## 📬 Reach
+### ⚡ &nbsp; tech i actually use
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-1a1a2e?style=flat-square&logo=linkedin&logoColor=FFD166)](https://linkedin.com)
-[![GitHub](https://img.shields.io/badge/GitHub-1a1a2e?style=flat-square&logo=github&logoColor=FF6B35)](https://github.com)
-[![Mail](https://img.shields.io/badge/Mail-1a1a2e?style=flat-square&logo=gmail&logoColor=EF233C)](mailto:)
+![Python](https://img.shields.io/badge/Python-FAF0CA?style=for-the-badge&logo=python&logoColor=E85D04)
+![C](https://img.shields.io/badge/C-FAF0CA?style=for-the-badge&logo=c&logoColor=3A0CA3)
+![Assembly](https://img.shields.io/badge/Assembly-FAF0CA?style=for-the-badge&logo=assemblyscript&logoColor=F72585)
+![MATLAB](https://img.shields.io/badge/MATLAB-FAF0CA?style=for-the-badge&logo=mathworks&logoColor=E85D04)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-FAF0CA?style=for-the-badge&logo=microsoftsqlserver&logoColor=3A0CA3)
+![MySQL](https://img.shields.io/badge/MySQL-FAF0CA?style=for-the-badge&logo=mysql&logoColor=F72585)
+
+![Power BI](https://img.shields.io/badge/Power%20BI-E85D04?style=for-the-badge&logo=powerbi&logoColor=FAF0CA)
+![DAX](https://img.shields.io/badge/DAX-3A0CA3?style=for-the-badge&logo=microsoftazure&logoColor=FAF0CA)
+![Arduino](https://img.shields.io/badge/Arduino-F72585?style=for-the-badge&logo=arduino&logoColor=FAF0CA)
+![ROS](https://img.shields.io/badge/ROS-E85D04?style=for-the-badge&logo=ros&logoColor=FAF0CA)
+![Vivado](https://img.shields.io/badge/Vivado-3A0CA3?style=for-the-badge&logo=xilinx&logoColor=FAF0CA)
 
 </div>
 
@@ -110,11 +75,19 @@ const projects = {
 
 <div align="center">
 
-```
-╔══════════════════════════════════════════════╗
-║  currently running on caffeine + curiosity   ║
-║  kernel: ECE @ CEG  ·  status: always on     ║
-╚══════════════════════════════════════════════╝
-```
+### 📬 &nbsp; find me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-E85D04?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com)
+[![GitHub](https://img.shields.io/badge/GitHub-3A0CA3?style=flat-square&logo=github&logoColor=white)](https://github.com)
+[![Mail](https://img.shields.io/badge/Gmail-F72585?style=flat-square&logo=gmail&logoColor=white)](mailto:)
+
+<br/>
+
+![](https://komarev.com/ghpvc/?username=mr-zeus&color=E85D04&style=flat-square&label=profile+views)
+
+<br/>
+
+*currently running on: caffeine + curiosity + vibes*  
+*uptime: 20 years · kernel: ECE @ CEG · status: always on*
 
 </div>
