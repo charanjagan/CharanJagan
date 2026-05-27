@@ -87,7 +87,7 @@ const charan = {
 <div align="center">
 
 <!-- ── GRADIENT 3D ANIMATED GRAPH (readme-design-kit element) ── -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_GITHUB_USERNAME&bg_color=0d0028&color=A855F7&line=7C3AED&point=F72585&area=true&area_color=7C3AED&hide_border=true&custom_title=Charan's%20Contribution%20Graph" width="100%" alt="Contribution Graph"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=charanjagan&bg_color=0d0028&color=A855F7&line=7C3AED&point=F72585&area=true&area_color=7C3AED&hide_border=true&custom_title=Charan's%20Contribution%20Graph" width="100%" alt="Contribution Graph"/>
 
 </div>
 
