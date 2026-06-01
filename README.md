@@ -65,10 +65,12 @@
 ## 🔥 What I'm Building
 
 ```
-📊  Workforce Risk & Engagement Dashboard  →  Power BI + DAX, IBM HR Analytics
-🤖  Autonomous Car Bot (ADAS)              →  ROS + Python + SLAM
-💡  P10 LED + 8051 uC                      →  Pure Assembly, because I enjoy pain
-📡  IoT Projects                           →  Embedded C + sensors + chaos
+✅Workforce Risk & Engagement Dashboard  →  Power BI + DAX, IBM HR Analytics
+✅Autonomous Car Bot (ADAS)              →  ROS + Python + SLAM
+✅P10 LED + 8051 uC                      →  Pure Assembly, because I enjoy pain
+✅IoT Projects                           →  Embedded C + sensors + chaos
+
+⚙️TNEA Predictor                         →  Python + ML + React
 
 ```
 
